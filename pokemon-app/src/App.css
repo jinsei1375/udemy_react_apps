@@ -20,3 +20,24 @@
 .cardInfo {
   text-align: center;
 }
+
+.button {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.button button {
+  padding: 13px 42px;
+  background-color: orange;
+  border: none;
+  box-shadow: 2px 8px 21px -2px #777777;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+.button button:hover {
+  transform: translateY(5px);
+  box-shadow: none;
+}
