@@ -26,7 +26,7 @@ const CreatePost = ({isAuth}) => {
 
   useEffect(() => {
     if(!isAuth) {
-      navigate('/');
+      navigate('/login');
     }
   }, [])
 
