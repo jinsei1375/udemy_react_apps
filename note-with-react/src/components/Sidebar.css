@@ -36,6 +36,9 @@ button {
 .app-sidebar-note:hover {
   background-color: #ece5e5ca;
 }
+.app-sidebar-note.active {
+  background-color: #ece5e5ca;
+}
 
 .sidebar-note-title {
   display: flex;
